@@ -1,0 +1,17 @@
+.container {
+display: flex; /* or inline-flex */
+flex-direction: row; /* o Row dependiendo del caso */
+flex-wrap: wrap;;
+gap: 10px;
+gap: 10px 20px; /* row-gap column gap */
+row-gap: 10px;
+column-gap: 20px;
+}
+
+.item {
+flex-grow: 1; /* espacio de los elementos internos*/
+}
+
+.item-2 {
+flex-grow: 2; /* espacio especial de elemento item-2*/
+}
